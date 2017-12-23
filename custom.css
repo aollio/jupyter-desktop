@@ -1,0 +1,47 @@
+body {
+    font-family: "Monaco", serif !important;
+}
+
+div#notebook, div.CodeMirror, div.output_area pre, div.output_wrapper, div.prompt {
+    font-family: 'Monaco', 'Meslo LG S', monospace !important;
+    font-size: 14px;
+}
+
+.rendered_html code, .introspection {
+    background-color: #eee;
+    font-family: "Monaco", serif !important;
+    font-size: 14px !important;
+}
+
+.rendered_html pre {
+    border: 1px;
+    background-color: #eee;
+    padding: .5ex .5em;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/*@media (min-width: 1200px) {*/
+/*.container {*/
+/*}*/
+/*}*/
+
+#header {
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+    font-family: Helvetica, "PingFang SC";
+}
+
+#notebook_name {
+    font-family: "Monaco", serif !important;
+}

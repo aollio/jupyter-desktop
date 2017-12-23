@@ -1,0 +1,22 @@
+{
+  "name": "jupyter-electron",
+  "version": "0.0.1",
+  "description": "Jupyter Notebook Based Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "1.7.9"
+  },
+  "author": "Aollio Hou",
+  "build": {
+    "productName": "Jupyter Desktop",
+    "appId": "com.aollio.jupyter",
+    "mac": {
+      "icon": "logo.icns"
+    }
+  }
+}
